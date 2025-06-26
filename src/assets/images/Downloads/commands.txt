@@ -1,0 +1,4 @@
+javac -cp "lib\*" src/com/*.java -d out/
+java -cp "out;lib\*" com.gradix.Main
+
+mvn clean compile exec:java -Dexec.mainClass="com.gradix.Main"
