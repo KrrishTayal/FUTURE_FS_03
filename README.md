@@ -34,13 +34,13 @@ Follow the instructions below to run the project locally.
 ```bash
 git clone https://github.com/KrrishTayal/FUTURE_FS_03.git
 cd FUTURE_FS_03
-2. Install Dependencies
-Make sure you have Node.js and npm installed, then run:
+//2. Install Dependencies
+//Make sure you have Node.js and npm installed, then run:
 
 'npm install'
 
-3. Start the Development Server
+//3. Start the Development Server
 
 'npm run dev'
 
-This will start the development server at http://localhost:5173 (if using Vite).
+//This will start the development server at http://localhost:5173 (if using Vite).
