@@ -8,7 +8,7 @@ const categories = [
   "Graphic Cards",
   "Laptop",
   "Monitors",
-  "Power Supplies",
+  "Power Supply",
 ];
 
 function Home() {
