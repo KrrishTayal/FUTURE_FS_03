@@ -39,7 +39,7 @@ function ProductDetails() {
             <h1 className='text-3xl font-bold mb-4'>{product.title}</h1>
             <p className='text-gray-600 mb-6'>{product.description}</p>
             <div className='mb-6'>
-              <span className='text-3xl font-bold'>&#8377; {product.price}</span>
+              <span className='text-3xl font-bold'>$ {product.price}</span>
 
             </div>
              <div className='mb-6'>

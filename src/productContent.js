@@ -7,7 +7,7 @@ const Products = [
     category: "Graphic Cards",
     description:
       "SFF-ready ProArt RTX 4070 SUPER OC 12GB GDDR6X brings minimalist style and powerful creator performance.",
-    image: "/src/assets/images/rtx4070.jpg",
+    image: "/images/rtx4070.jpg",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const Products = [
     category: "Graphic Cards",
     description:
       "MSI Ventus 4060 Ti with dual fan cooling and 8GB GDDR6 memory for smooth gaming performance.",
-    image: "/src/assets/images/RTX_4060.jpg",
+    image: "/images/RTX_4060.jpg",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const Products = [
     category: "Graphic Cards",
     description:
       "The Eagle RTX 4080 is built for 4K and ray tracing with 16GB GDDR6X and triple-fan cooling.",
-    image: "/src/assets/images/RTX_4080.jpg",
+    image: "/images/RTX_4080.jpg",
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const Products = [
     category: "Graphic Cards",
     description:
       "Compact and efficient RTX 4070 with enhanced cooling and sleek design from Zotac.",
-    image: "/src/assets/images/Zotac.jpg",
+    image: "/images/Zotac.jpg",
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ const Products = [
     category: "Graphic Cards",
     description:
       "Built with RDNA 3, 12GB GDDR6 and dual-X cooling for high FPS gaming in 1440p.",
-    image: "/src/assets/images/Sapphire.jpg",
+    image: "/images/Sapphire.jpg",
   },
 
   // ─── Laptop ───────────────────────────────
@@ -54,7 +54,7 @@ const Products = [
     category: "Laptop",
     description:
       "16-inch ROG gaming laptop with Intel i9 14th Gen, RTX 4070, 32GB RAM and 1TB SSD.",
-    image: "/src/assets/images/ASUS_Rog.jpg",
+    image: "/images/ASUS_ROG.jpg",
   },
   {
     id: 7,
@@ -63,7 +63,7 @@ const Products = [
     category: "Laptop",
     description:
       "Ultra-sharp 3.5K OLED display, Intel i7, RTX 4050 GPU and sleek aluminum chassis.",
-    image: "/src/assets/images/Dell_XPS.jpg",
+    image: "/images/Dell_XPS.jpg",
   },
   {
     id: 8,
@@ -72,7 +72,7 @@ const Products = [
     category: "Laptop",
     description:
       "Apple's flagship laptop with M2 Pro chip, Liquid Retina XDR and all-day battery life.",
-    image: "/src/assets/images/MacBook.jpg",
+    image: "/images/MacBook.jpg",
   },
   {
     id: 9,
@@ -81,7 +81,7 @@ const Products = [
     category: "Laptop",
     description:
       "Ryzen 7 7840HS with RTX 4060, QHD 165Hz display and advanced cooling system.",
-    image: "/src/assets/images/Legion.jpg",
+    image: "/images/Legion.jpg",
   },
   {
     id: 10,
@@ -90,7 +90,7 @@ const Products = [
     category: "Laptop",
     description:
       "Convertible touch-screen laptop with AMD Ryzen 5, 16GB RAM and stylus support.",
-    image: "/src/assets/images/HP.jpg",
+    image: "/images/HP.jpg",
   },
 
   // ─── Monitors ─────────────────────────────
@@ -101,7 +101,7 @@ const Products = [
     category: "Monitors",
     description:
       "27-inch 4K UHD Nano IPS with 144Hz refresh rate and G-Sync/FreeSync compatibility.",
-    image: "/src/assets/images/LG_UltraGear.jpg",
+    image: "/images/LG_UltraGear.jpg",
   },
   {
     id: 12,
@@ -110,7 +110,7 @@ const Products = [
     category: "Monitors",
     description:
       "49-inch Dual QHD 240Hz curved gaming monitor with HDR2000 and quantum mini-LED tech.",
-    image: "/src/assets/images/Odyssey.jpg",
+    image: "/images/Odyssey.jpg",
   },
   {
     id: 13,
@@ -119,7 +119,7 @@ const Products = [
     category: "Monitors",
     description:
       "27-inch WQHD professional monitor with 100% sRGB, factory calibration and USB-C.",
-    image: "/src/assets/images/ASUS_ProArt.jpg",
+    image: "/images/ASUS_ProArt.jpg",
   },
   {
     id: 14,
@@ -128,7 +128,7 @@ const Products = [
     category: "Monitors",
     description:
       "Budget 1440p 170Hz IPS gaming monitor with vivid colors and adaptive sync.",
-    image: "/src/assets/images/ACER_Nitro.jpg",
+    image: "/images/Acer_Nitro.jpg",
   },
   {
     id: 15,
@@ -137,7 +137,7 @@ const Products = [
     category: "Monitors",
     description:
       "27-inch 4K IPS display with USB-C hub and ultra-thin bezels for pro productivity.",
-    image: "/src/assets/images/DELL_UltraSharp.jpg",
+    image: "/images/Dell_UltraSharp.jpg",
   },
 
   // ─── Power Supply ────────────────────────
@@ -148,7 +148,7 @@ const Products = [
     category: "Power Supply",
     description:
       "Fully modular 80+ Gold certified PSU with silent fan mode and reliable build.",
-    image: "/src/assets/images/Corsair_RM850x.jpg",
+    image: "/images/Corsair_RM850x.jpg",
   },
   {
     id: 17,
@@ -157,7 +157,7 @@ const Products = [
     category: "Power Supply",
     description:
       "Premium PSU with 80+ Gold certification, fully modular design and Japanese capacitors.",
-    image: "/src/assets/images/Seasonic.jpg",
+    image: "/images/Seasonic.jpg",
   },
   {
     id: 18,
@@ -166,7 +166,7 @@ const Products = [
     category: "Power Supply",
     description:
       "Affordable 80+ Bronze PSU with DC-to-DC conversion and quiet 120mm HDB fan.",
-    image: "/src/assets/images/Cooler.jpg",
+    image: "/images/Cooler.jpg",
   },
   {
     id: 19,
@@ -175,7 +175,7 @@ const Products = [
     category: "Power Supply",
     description:
       "1000W Platinum-rated PSU with ECO fan mode and full modular cabling.",
-    image: "/src/assets/images/EVGA.jpg",
+    image: "/images/EVGA.jpg",
   },
   {
     id: 20,
@@ -184,7 +184,7 @@ const Products = [
     category: "Power Supply",
     description:
       "Minimalist, efficient PSU with semi-modular design and high thermal performance.",
-    image: "/src/assets/images/NZXT.jpg",
+    image: "/images/NZXT.jpg",
   },
 ];
 
